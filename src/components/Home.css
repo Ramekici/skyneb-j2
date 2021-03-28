@@ -1,0 +1,85 @@
+.home{
+    background-size: cover;
+    width: 100vw;
+    background-position: 25% 50%;
+}
+
+
+.container {
+    width: 80%;
+    padding-top: 5rem;
+    margin: auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+.col-skyneb {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upper, .below{
+    margin-bottom: 1rem;
+    text-align: left;
+    color: white;
+}
+
+.title{
+    margin-bottom: 0;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-parag{
+    font-size: 0.875rem;
+    text-align: justify;
+    text-justify: inter-word;
+    color: rgb(182, 181, 181);
+    font-family: 'Roboto', sans-serif;
+}
+
+.read-more{
+    width: 30%;
+    border-radius: .1rem;
+    background-color: transparent;
+    border: 2px solid #3387a9;
+    padding: .5rem;
+    color: #3387a9;
+    cursor: pointer;
+}
+
+.read-more:hover{
+    background-color: white;
+    color: black;
+}
+
+.read-more:focus{
+ outline: none;
+}
+
+@media screen and (max-width: 960px){
+    .container {
+        width: 90%;
+    }
+    .col-skyneb{
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .container {
+        width: 96%;
+    }
+    .col-skyneb{
+        width:100%;
+    }
+}
